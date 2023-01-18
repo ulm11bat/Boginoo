@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+}
+.tut{
+    width: 100vw;
+    padding: 40px;
+    font-size: 20px;
+    height: 10vh;
+    color: #02B589;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+}
+.login{
+    width: 380px;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.txt{
+    font-size: 32px;
+    color: #02B589;
+    font-weight: 700;
+}
+.inp{
+    box-shadow: 0px 1px 5px 0px #00000029;
+    background: #FFFFFF;
+    border: 1px solid #F0F0F0;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.16);
+    border-radius: 100px;
+    width: 380px;
+    height: 44px;
+    padding: 24px;
+    font-size: 20px;
+}
+.check{
+    background: #FFFFFF;
+    border: 1px solid #02B589;
+    box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    width: 20px;
+    height: 20px;
+}
+.txt2{
+    font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 18px;
+color: #02B589;
+}
+.nevtreh{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 145px;
+gap: 10px;
+font-size: 20px;
+font-weight: 700px;
+border-radius: 100px;
+box-shadow: 0px 1px 5px 0px #00000029;
+background: #02B589;
+border: 1px solid #02B589;
+box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.16);
+}
+.txt3{
+font-weight: 700;
+font-size: 20px;
+text-transform: uppercase;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.txt4{
+    color: #333333;
+    text-decoration-line: underline;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+}
